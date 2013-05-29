@@ -174,6 +174,8 @@ Status: Stable
    service keystone restart
    keystone-manage db_sync
 
+这里一定要注意 使用 sudo 同步.
+
 * Fill up the keystone database using the two scripts available in the `Scripts folder <https://github.com/mseknibilel/OpenStack-Grizzly-Install-Guide/tree/master/KeystoneScripts>`_ of this git repository::
 
    #Modify the HOST_IP and HOST_IP_EXT variables before executing the scripts
