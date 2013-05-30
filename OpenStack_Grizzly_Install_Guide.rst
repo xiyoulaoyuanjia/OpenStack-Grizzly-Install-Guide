@@ -204,6 +204,11 @@ Status: Stable
 
    keystone user-list
 
+在Grizzly 版中，keystone 默认验证方式是 PKI , 需要签名证书，之前的版本都是用的 UUID，改 keystone.conf:
+
+  token_format = UUID
+
+
 4. Glance
 =============
 
